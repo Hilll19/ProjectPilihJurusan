@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Page</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container-img" id="home-login">
+      <div class="logo">
+        <img src="./image/Logo.png" alt="" />
+      </div>
+      <div class="logo2">
+        <img src="./image/Logo2.png" alt="" />
+      </div>
+      <div class="logo3">
+        <img src="./image/Logo3.png" alt="" />
+      </div>
+    </div>
+    <div class="container">
+      <h1>MASUK</h1>
+      <div class="form-group">
+        <input type="email" placeholder="user@user.com" id="email" required />
+        <span class="error" id="email-error"></span>
+      </div>
+      <div class="form-group">
+        <input type="password" placeholder="******" id="password" required />
+        <span class="error" id="password-error"></span>
+      </div>
+      <button onclick="login()">Masuk Sekarang</button>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,130 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f9f9f4;
+  margin: 0;
+}
+
+/* Logo */
+.logo {
+  display: flex;
+  position: absolute;
+  top: 50px;
+  left: 80px;
+}
+.logo2 {
+  display: flex;
+  position: absolute;
+  bottom: 30px;
+  right: 25px;
+}
+.logo3 {
+  display: flex;
+  position: absolute;
+  bottom: 30px;
+  left: 25px;
+}
+
+/* Container login */
+.container {
+  text-align: center;
+  color: white;
+  border: 1px solid #ccc;
+  padding: 32px 40px;
+  border-radius: 24px;
+  max-width: 600px;
+  height: 397px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+
+.container h1 {
+  color: black;
+  display: flex;
+}
+
+.form-group {
+  width: 400px;
+}
+
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.error {
+  color: red;
+  display: block;
+  font-size: 12px;
+  text-align: left;
+  margin-top: 5px;
+}
+
+.popup-message {
+  position: fixed;
+  top: 50%;
+  right: 20px;
+  transform: translateY(-50%);
+  background-color: #f44336;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  z-index: 9999;
+}
+
+button {
+  background-color: #f06623;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Container Dashboard */
+.container-dash h1 {
+  display: flex;
+  font-size: 30px;
+}
+.container-dash h2 {
+  color: black;
+}
+.container-dash p {
+  color: black;
+  position: relative;
+  margin-right: 300px;
+}
+/* Food list */
+.food-list {
+  color: black;
+}
+.food-list li {
+    display: flex;
+  list-style-type: none;
+}
+.food-list a{
+    display: flex;
+    position: absolute;
+    text-align: left;
+}
+
+/* Button logout */
+.button-logout {
+  background-color: #f06623;
+  margin-top: 24px;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
